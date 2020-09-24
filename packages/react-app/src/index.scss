@@ -1,8 +1,24 @@
-body {
-  margin: 0;
+
+/* Add custom fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar__title {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Set up container */
+
+.container {
+  max-width: 1024px; // Set limit in width
+  padding: 2rem 1rem; // Adjust layout
 }
