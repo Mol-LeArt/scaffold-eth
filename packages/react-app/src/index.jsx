@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "@apollo/react-hooks";
-import "./index.css";
+import "./index.scss";
 import App from "./App";
 
 // This is the official Uniswap v1 subgraph. You can replace it with your own, if you need to.
