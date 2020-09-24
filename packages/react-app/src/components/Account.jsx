@@ -1,7 +1,5 @@
 import React from "react";
 import { Button } from "antd";
-import Address from "./Address";
-import Balance from "./Balance";
 import Wallet from "./Wallet";
 
 export default function Account({
@@ -50,8 +48,6 @@ export default function Account({
     ""
   ) : (
     <span>
-      {address ? <Address value={address} ensProvider={mainnetProvider} blockExplorer={blockExplorer} /> : "Connecting..."}
-      <Balance address={address} provider={localProvider} dollarMultiplier={price} />
       <Wallet address={address} provider={userProvider} ensProvider={mainnetProvider} price={price} />
     </span>
   );
