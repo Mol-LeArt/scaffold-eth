@@ -8,7 +8,7 @@ import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { useUserAddress } from "eth-hooks";
 import { useExchangePrice, useGasPrice, useUserProvider, useContractLoader, useContractReader, useBalance, useEventListener } from "./hooks";
-import { Header, Account, Contract, Address } from "./components";
+import { Account, Contract, Address } from "./components";
 import { Transactor } from "./helpers";
 import { parseEther, formatEther } from "@ethersproject/units";
 import { ExampleUI } from "./views"
@@ -109,9 +109,6 @@ function App() {
 
   return (
     <div className="App">
-
-      {/* ✏️ Edit the header and change the title to your project name */}
-      <Header />
 
       <BrowserRouter>
 

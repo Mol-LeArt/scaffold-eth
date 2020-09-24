@@ -8,5 +8,4 @@ export { default as TokenBalance } from "./TokenBalance";
 export { default as Provider } from "./Provider"
 export { default as Wallet } from "./Wallet";
 export { default as Blockie } from "./Blockie";
-export { default as Header } from "./Header";
 export { default as Timeline } from "./Timeline";
