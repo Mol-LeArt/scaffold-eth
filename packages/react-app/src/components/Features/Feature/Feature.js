@@ -1,11 +1,10 @@
 
 import React from 'react';
 import clsx from 'clsx';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.scss';
 
 function Feature({imageUrl, title, description}) {
-    const imgUrl = useBaseUrl(imageUrl);
+    const imgUrl = imageUrl;
     return (
       <div className={clsx('col col--4')}>
         {imgUrl && (

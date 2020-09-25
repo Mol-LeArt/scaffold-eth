@@ -3,16 +3,13 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.scss';
 
-import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 function Footer() {
     return (
       <footer>
         <div className={clsx(styles.lpfooter, 'text--center')}>
-          <Link to={useBaseUrl('docs/')}>
+          <a target='_blank' href="https://frosty-hawking-4be71a.netlify.app/docs/">
             About
-          </Link>
+          </a>
           <a target='_blank' href="https://twitter.com/MolLeArt">
             Twitter
           </a>

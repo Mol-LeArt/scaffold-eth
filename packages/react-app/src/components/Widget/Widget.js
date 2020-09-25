@@ -2,8 +2,6 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 import Buy from './Dapphero/Buy'
 import Gift from './Dapphero/Gift'
 import Scribe from './Dapphero/Scribe'
@@ -45,7 +43,7 @@ function Widget() {
       <div className="container">
         <div className="row">
           <div className="col col--6">
-            <img src={useBaseUrl("img/scribe.gif")} />
+            <img src="img/scribe.gif" />
           </div>
           <div className="col col--6">
             <WidgetContent/>
