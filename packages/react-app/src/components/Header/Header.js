@@ -6,7 +6,7 @@ import { Hero } from 'decentraland-ui'
 
 function Header() {
     return (
-      <div className="story">
+      <div>
         <Hero centered>
           <Hero.Header>Mol LeArt</Hero.Header>
           <Hero.Description>DAO managed creative commons</Hero.Description>
