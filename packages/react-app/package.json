@@ -37,6 +37,7 @@
     "bnc-notify": "^1.3.0",
     "burner-provider": "^1.0.38",
     "clsx": "^1.1.1",
+    "decentraland-ui": "^2.23.1",
     "dotenv": "^8.2.0",
     "eth-hooks": "^1.1.2",
     "ethers": "^5.0.14",

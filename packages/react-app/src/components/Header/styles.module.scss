@@ -5,17 +5,6 @@
  * and scoped locally.
  */
 
-.hero {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-
-  @media screen and (max-width: 966px) {
-      padding: 2rem 0;
-  }
-}
-
 .heroImage {
   position: absolute;
   background-size: cover;
@@ -25,8 +14,3 @@
   bottom: 0;
   pointer-events: none
 }
-
-.heroTitle {
-  margin: 80px 0 80px 0;
-}
-
