@@ -167,7 +167,6 @@ function App() {
   );
 }
 
-
 /*
   Web3 modal helps us "connect" external wallets:
 */
