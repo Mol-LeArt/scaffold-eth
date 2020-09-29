@@ -1,25 +1,15 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
+import { BrowserRouter } from "react-router-dom";
+
 import Fullscreen from '../components/Fullscreen/Fullscreen'
-
-import Features from '../components/Features/Features'
-import Widget from '../components/Widget/Widget'
-import Chart from '../components/Chart/Chart'
-import Footer from '../components/Footer/Footer'
-
-import Tabs from '../components/Tabs/Tabs'
 
 function Home() {
   return (
-    <div>
+    <BrowserRouter>
       <Fullscreen/>
-      {/* <Tabs/> */}
-        {/* <Features/> */}
-        {/* <Widget/> */}
-        {/* <Chart/> */}
-      {/* <Footer/> */}
-    </div>
+    </BrowserRouter>
   );
 }
 
