@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './styles.module.scss';
 
-import Hero from '../components/Hero/Hero'
+import Fullscreen from '../components/Fullscreen/Fullscreen'
+
 import Features from '../components/Features/Features'
 import Widget from '../components/Widget/Widget'
 import Chart from '../components/Chart/Chart'
@@ -12,14 +13,12 @@ import Tabs from '../components/Tabs/Tabs'
 function Home() {
   return (
     <div>
-      <Hero/>
-      <main>
+      <Fullscreen/>
+      {/* <Tabs/> */}
         {/* <Features/> */}
-        <Widget/>
-        <Chart/>
-        <Tabs/>
-      </main>
-      <Footer/>
+        {/* <Widget/> */}
+        {/* <Chart/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
