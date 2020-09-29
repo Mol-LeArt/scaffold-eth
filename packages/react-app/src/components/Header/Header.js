@@ -9,10 +9,7 @@ function Header() {
       <div>
         <Hero centered>
           <Hero.Header>Mol LeArt</Hero.Header>
-          <Hero.Description>DAO managed creative commons</Hero.Description>
-          <Hero.Content className={styles.heroImage}>
-            <img src="img/hero.png"/>
-          </Hero.Content>
+          <Hero.Description>creative commons for web3</Hero.Description>
         </Hero>
       </div>
     )
