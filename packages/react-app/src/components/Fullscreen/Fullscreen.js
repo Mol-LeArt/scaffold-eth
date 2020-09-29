@@ -12,7 +12,7 @@ function fullscreen() {
           <Header size="huge">Mol LeArt</Header>
           <p>creative commons for web3</p>
           <br/>
-          <Link to="/contracts">
+          <Link to="/menu">
             <Button>Getting started</Button>
           </Link>
         </Center>
