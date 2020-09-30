@@ -4,3 +4,8 @@
  * CSS files with the .module.scss suffix will be treated as CSS modules
  * and scoped locally.
  */
+
+:global .dcl.field {
+  min-width: auto;
+}
+  
