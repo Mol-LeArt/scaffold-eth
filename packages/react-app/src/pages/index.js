@@ -3,20 +3,17 @@ import styles from './styles.module.scss';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import Menu from "./menu/index"
-
 import Fullscreen from '../components/Fullscreen/Fullscreen'
+import Menu from "./menu/index"
 
 function Home() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/menu">
-          <Menu />
-        </Route>
-        <Route path="/">
-          <Fullscreen />
-        </Route>
+        <Route path="/menu/" component={Menu}/>
+        <Route path="/" exact render={(props) => (
+          <Fullscreen {...props} link="/menu/scribe"/>
+        )}/>
       </Switch>
     </BrowserRouter>
   );
